@@ -19,88 +19,52 @@
 
     <data>
 
-        <import type="com.example.android.conversationalPrototype.R" />
+        <import type="com.example.android.camera2basic.R" />
 
         <import type="android.view.View" />
 
         <variable
             name="data"
-            type="com.example.android.conversationalPrototype.CameraFragmentViewModel" />
+            type="com.example.android.camera2basic.CameraFragmentViewModel" />
     </data>
-
-    <FrameLayout
+    <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-        <com.example.android.conversationalPrototype.AutoFitTextureView
+        <com.example.android.camera2basic.AutoFitTextureView
             android:id="@+id/texture"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent" />
-
-        <ImageView
-            android:layout_width="0dp"
-            android:layout_height="0dp"
-            android:layout_marginBottom="8dp"
-            android:layout_marginStart="16dp"
-            android:contentDescription="asdf"
-            android:scaleType="fitCenter"
-            android:src="@drawable/btn_camera"
-            app:layout_constraintBottom_toBottomOf="@id/texture"
-            app:layout_constraintStart_toEndOf="@+id/texture" />
-
-        <FrameLayout
-            android:id="@+id/overlay"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_alignParentBottom="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
-            android:visibility="@{data.isHidden ? View.GONE : View.VISIBLE}"
-            app:layout_constraintBottom_toBottomOf="parent">
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical"></LinearLayout>
-        </FrameLayout>
+            android:layout_alignParentTop="true" />
 
         <FrameLayout
             android:id="@+id/control"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="@dimen/frame_height"
             android:layout_alignParentBottom="true"
             android:layout_alignParentStart="true"
-            android:visibility="@{data.isHidden ? View.VISIBLE : View.INVISIBLE}"
-            app:layout_constraintBottom_toBottomOf="parent">
-
-            <Button
-                style="@android:style/Widget.Material.Button.Borderless"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="top|end"
-                android:textColor="@color/colorSecondaryText" />
-
-            <ImageButton
-                android:id="@+id/info"
-                style="@android:style/Widget.Material.Light.Button.Borderless"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="top|start"
-                android:contentDescription="@string/description_info"
-                android:src="@drawable/top_question" />
+            android:background="@color/control_background">
 
             <ImageButton
                 android:id="@+id/picture"
-                android:layout_width="0dp"
-                android:layout_height="0dp"
-                android:layout_gravity="bottom|center_horizontal"
-                android:layout_marginBottom="20dp"
-                android:src="@drawable/btn_camera"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintBottom_toTopOf="@+id/texture"
-                tools:layout_editor_absoluteX="32dp" />
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/btn_camera" />
+
+            <ImageButton
+                android:id="@+id/info"
+                android:contentDescription="@string/description_info"
+                style="@android:style/Widget.Material.Light.Button.Borderless"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|end"
+                android:padding="@dimen/image_button_padding"
+                android:src="@drawable/ic_action_info" />
 
         </FrameLayout>
 
+    </RelativeLayout>
 
-    </FrameLayout>
 </layout>

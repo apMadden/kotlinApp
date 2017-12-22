@@ -19,5 +19,18 @@
     <string name="request_permission">This sample needs camera permission.</string>
     <string name="camera_error">This device doesn\'t support Camera2 API.</string>
 
+    <string name="app_name">conversationalPrototype</string>
+    <string name="choice_activity">choice_activity</string>
+    <string name="intro_message">
+        <![CDATA[
+
+
+            This sample demonstrates the basic use of Camera2 API. Check the source code to see how
+            you can display camera preview and take pictures.
+
+
+        ]]>
+    </string>
     <string name="flip_key_over">Now Flip Over Your Key\nTake a photo of the other side of the key</string>
+
 </resources>

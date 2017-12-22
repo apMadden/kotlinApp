@@ -12,7 +12,7 @@ build
 bin/
 gen/
 Thumbs.db
-
+Application/build
 .classpath
 .project
 *.iml

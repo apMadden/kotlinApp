@@ -4,17 +4,17 @@ ADDED from C:\Users\madde\Documents\GitHub\kotlinApp\Application\src\main\Androi
 INJECTED from C:\Users\madde\Documents\GitHub\kotlinApp\Application\src\main\AndroidManifest.xml:18:1-43:12
 INJECTED from C:\Users\madde\Documents\GitHub\kotlinApp\Application\src\main\AndroidManifest.xml:18:1-43:12
 INJECTED from C:\Users\madde\Documents\GitHub\kotlinApp\Application\src\main\AndroidManifest.xml:18:1-43:12
-MERGED from [com.android.databinding:adapters:1.3.1] C:\Users\madde\.gradle\caches\transforms-1\files-1.1\adapters-1.3.1.aar\559a89096bae0ec902196398b79ad202\AndroidManifest.xml:17:1-26:12
-MERGED from [com.android.databinding:library:1.3.1] C:\Users\madde\.gradle\caches\transforms-1\files-1.1\library-1.3.1.aar\071cf9f8eb0db6d4feab021c89a1da0a\AndroidManifest.xml:17:1-26:12
-MERGED from [com.android.support:appcompat-v7:27.0.2] C:\Users\madde\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\ec5b78a4522f302ca158bc694d68e525\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-v4:21.0.3] C:\Users\madde\.gradle\caches\transforms-1\files-1.1\support-v4-21.0.3.aar\cacc8f776200e8d0538bc915ad3e22b7\AndroidManifest.xml:14:4-17:12
-MERGED from [com.android.support:support-fragment:27.0.2] C:\Users\madde\.gradle\caches\transforms-1\files-1.1\support-fragment-27.0.2.aar\c748902daf9720cfbaa389fddaf191bf\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-utils:27.0.2] C:\Users\madde\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.0.2.aar\2d92e990bccff375365f33aecda1f24f\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:animated-vector-drawable:27.0.2] C:\Users\madde\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.0.2.aar\200d9a27c88660c15c01415627d0dfb8\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-vector-drawable:27.0.2] C:\Users\madde\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.0.2.aar\6e37bce07f81bbaca5f6b6b5204f2130\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-ui:27.0.2] C:\Users\madde\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.0.2.aar\b5301d22ab80a43dceb381e05727f902\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-compat:27.0.2] C:\Users\madde\.gradle\caches\transforms-1\files-1.1\support-compat-27.0.2.aar\44c5252247c158c7cd8c16855e1e24ca\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:runtime:1.0.3] C:\Users\madde\.gradle\caches\transforms-1\files-1.1\runtime-1.0.3.aar\073c8f0d6867a474bde1f0b3131a5c27\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.databinding:adapters:1.3.1] C:\Users\madde\.gradle\caches\transforms-1\files-1.1\adapters-1.3.1.aar\d7d88c7671f9d00eae435757e8844b9b\AndroidManifest.xml:17:1-26:12
+MERGED from [com.android.databinding:library:1.3.1] C:\Users\madde\.gradle\caches\transforms-1\files-1.1\library-1.3.1.aar\45fc99a3ca2372aba860d6740bb89d52\AndroidManifest.xml:17:1-26:12
+MERGED from [com.android.support:appcompat-v7:27.0.2] C:\Users\madde\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\597e7bcb6b7fc7e8d120981cfbe31d92\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-v4:21.0.3] C:\Users\madde\.gradle\caches\transforms-1\files-1.1\support-v4-21.0.3.aar\e52a6a0a58ec4d4c697d1fccf0c18dbd\AndroidManifest.xml:14:4-17:12
+MERGED from [com.android.support:support-fragment:27.0.2] C:\Users\madde\.gradle\caches\transforms-1\files-1.1\support-fragment-27.0.2.aar\53370b3a581def65d15d604ee20f7fe6\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.0.2] C:\Users\madde\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.0.2.aar\bd24e331578563d3f0c129d1e55d8935\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] C:\Users\madde\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.0.2.aar\d67025dd3ea9c3c7e729e862bf7dcf58\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.0.2] C:\Users\madde\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.0.2.aar\08253132bceeb6e1c3028aa228208599\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.0.2] C:\Users\madde\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.0.2.aar\8d840bf4ff180dab2f5e25e3da5c42c0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.0.2] C:\Users\madde\.gradle\caches\transforms-1\files-1.1\support-compat-27.0.2.aar\4687182b00d95fa4b8e2c86ecdad1b6d\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.0.3] C:\Users\madde\.gradle\caches\transforms-1\files-1.1\runtime-1.0.3.aar\e02f72869044278da2b1418028a164b5\AndroidManifest.xml:17:1-24:12
 INJECTED from C:\Users\madde\Documents\GitHub\kotlinApp\Application\src\main\AndroidManifest.xml:18:1-43:12
 INJECTED from C:\Users\madde\Documents\GitHub\kotlinApp\Application\src\main\AndroidManifest.xml:18:1-43:12
 INJECTED from C:\Users\madde\Documents\GitHub\kotlinApp\Application\src\main\AndroidManifest.xml:18:1-43:12
@@ -54,8 +54,8 @@ ADDED from C:\Users\madde\Documents\GitHub\kotlinApp\Application\src\main\Androi
 		ADDED from C:\Users\madde\Documents\GitHub\kotlinApp\Application\src\main\AndroidManifest.xml:27:22-78
 application
 ADDED from C:\Users\madde\Documents\GitHub\kotlinApp\Application\src\main\AndroidManifest.xml:29:5-41:19
-MERGED from [com.android.support:support-v4:21.0.3] C:\Users\madde\.gradle\caches\transforms-1\files-1.1\support-v4-21.0.3.aar\cacc8f776200e8d0538bc915ad3e22b7\AndroidManifest.xml:16:5-19
-MERGED from [com.android.support:support-v4:21.0.3] C:\Users\madde\.gradle\caches\transforms-1\files-1.1\support-v4-21.0.3.aar\cacc8f776200e8d0538bc915ad3e22b7\AndroidManifest.xml:16:5-19
+MERGED from [com.android.support:support-v4:21.0.3] C:\Users\madde\.gradle\caches\transforms-1\files-1.1\support-v4-21.0.3.aar\e52a6a0a58ec4d4c697d1fccf0c18dbd\AndroidManifest.xml:16:5-19
+MERGED from [com.android.support:support-v4:21.0.3] C:\Users\madde\.gradle\caches\transforms-1\files-1.1\support-v4-21.0.3.aar\e52a6a0a58ec4d4c697d1fccf0c18dbd\AndroidManifest.xml:16:5-19
 	android:label
 		ADDED from C:\Users\madde\Documents\GitHub\kotlinApp\Application\src\main\AndroidManifest.xml:30:9-41
 	android:icon
@@ -84,28 +84,28 @@ uses-sdk
 INJECTED from C:\Users\madde\Documents\GitHub\kotlinApp\Application\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\madde\Documents\GitHub\kotlinApp\Application\src\main\AndroidManifest.xml
 INJECTED from C:\Users\madde\Documents\GitHub\kotlinApp\Application\src\main\AndroidManifest.xml
-MERGED from [com.android.databinding:adapters:1.3.1] C:\Users\madde\.gradle\caches\transforms-1\files-1.1\adapters-1.3.1.aar\559a89096bae0ec902196398b79ad202\AndroidManifest.xml:22:5-24:41
-MERGED from [com.android.databinding:adapters:1.3.1] C:\Users\madde\.gradle\caches\transforms-1\files-1.1\adapters-1.3.1.aar\559a89096bae0ec902196398b79ad202\AndroidManifest.xml:22:5-24:41
-MERGED from [com.android.databinding:library:1.3.1] C:\Users\madde\.gradle\caches\transforms-1\files-1.1\library-1.3.1.aar\071cf9f8eb0db6d4feab021c89a1da0a\AndroidManifest.xml:22:5-24:41
-MERGED from [com.android.databinding:library:1.3.1] C:\Users\madde\.gradle\caches\transforms-1\files-1.1\library-1.3.1.aar\071cf9f8eb0db6d4feab021c89a1da0a\AndroidManifest.xml:22:5-24:41
-MERGED from [com.android.support:appcompat-v7:27.0.2] C:\Users\madde\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\ec5b78a4522f302ca158bc694d68e525\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:27.0.2] C:\Users\madde\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\ec5b78a4522f302ca158bc694d68e525\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:21.0.3] C:\Users\madde\.gradle\caches\transforms-1\files-1.1\support-v4-21.0.3.aar\cacc8f776200e8d0538bc915ad3e22b7\AndroidManifest.xml:15:5-42
-MERGED from [com.android.support:support-v4:21.0.3] C:\Users\madde\.gradle\caches\transforms-1\files-1.1\support-v4-21.0.3.aar\cacc8f776200e8d0538bc915ad3e22b7\AndroidManifest.xml:15:5-42
-MERGED from [com.android.support:support-fragment:27.0.2] C:\Users\madde\.gradle\caches\transforms-1\files-1.1\support-fragment-27.0.2.aar\c748902daf9720cfbaa389fddaf191bf\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:27.0.2] C:\Users\madde\.gradle\caches\transforms-1\files-1.1\support-fragment-27.0.2.aar\c748902daf9720cfbaa389fddaf191bf\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:27.0.2] C:\Users\madde\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.0.2.aar\2d92e990bccff375365f33aecda1f24f\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:27.0.2] C:\Users\madde\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.0.2.aar\2d92e990bccff375365f33aecda1f24f\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:27.0.2] C:\Users\madde\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.0.2.aar\200d9a27c88660c15c01415627d0dfb8\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:27.0.2] C:\Users\madde\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.0.2.aar\200d9a27c88660c15c01415627d0dfb8\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:27.0.2] C:\Users\madde\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.0.2.aar\6e37bce07f81bbaca5f6b6b5204f2130\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:27.0.2] C:\Users\madde\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.0.2.aar\6e37bce07f81bbaca5f6b6b5204f2130\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:27.0.2] C:\Users\madde\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.0.2.aar\b5301d22ab80a43dceb381e05727f902\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:27.0.2] C:\Users\madde\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.0.2.aar\b5301d22ab80a43dceb381e05727f902\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:27.0.2] C:\Users\madde\.gradle\caches\transforms-1\files-1.1\support-compat-27.0.2.aar\44c5252247c158c7cd8c16855e1e24ca\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:27.0.2] C:\Users\madde\.gradle\caches\transforms-1\files-1.1\support-compat-27.0.2.aar\44c5252247c158c7cd8c16855e1e24ca\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.0.3] C:\Users\madde\.gradle\caches\transforms-1\files-1.1\runtime-1.0.3.aar\073c8f0d6867a474bde1f0b3131a5c27\AndroidManifest.xml:20:5-22:41
-MERGED from [android.arch.lifecycle:runtime:1.0.3] C:\Users\madde\.gradle\caches\transforms-1\files-1.1\runtime-1.0.3.aar\073c8f0d6867a474bde1f0b3131a5c27\AndroidManifest.xml:20:5-22:41
+MERGED from [com.android.databinding:adapters:1.3.1] C:\Users\madde\.gradle\caches\transforms-1\files-1.1\adapters-1.3.1.aar\d7d88c7671f9d00eae435757e8844b9b\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.databinding:adapters:1.3.1] C:\Users\madde\.gradle\caches\transforms-1\files-1.1\adapters-1.3.1.aar\d7d88c7671f9d00eae435757e8844b9b\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.databinding:library:1.3.1] C:\Users\madde\.gradle\caches\transforms-1\files-1.1\library-1.3.1.aar\45fc99a3ca2372aba860d6740bb89d52\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.databinding:library:1.3.1] C:\Users\madde\.gradle\caches\transforms-1\files-1.1\library-1.3.1.aar\45fc99a3ca2372aba860d6740bb89d52\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:appcompat-v7:27.0.2] C:\Users\madde\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\597e7bcb6b7fc7e8d120981cfbe31d92\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.0.2] C:\Users\madde\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\597e7bcb6b7fc7e8d120981cfbe31d92\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:21.0.3] C:\Users\madde\.gradle\caches\transforms-1\files-1.1\support-v4-21.0.3.aar\e52a6a0a58ec4d4c697d1fccf0c18dbd\AndroidManifest.xml:15:5-42
+MERGED from [com.android.support:support-v4:21.0.3] C:\Users\madde\.gradle\caches\transforms-1\files-1.1\support-v4-21.0.3.aar\e52a6a0a58ec4d4c697d1fccf0c18dbd\AndroidManifest.xml:15:5-42
+MERGED from [com.android.support:support-fragment:27.0.2] C:\Users\madde\.gradle\caches\transforms-1\files-1.1\support-fragment-27.0.2.aar\53370b3a581def65d15d604ee20f7fe6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.0.2] C:\Users\madde\.gradle\caches\transforms-1\files-1.1\support-fragment-27.0.2.aar\53370b3a581def65d15d604ee20f7fe6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.2] C:\Users\madde\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.0.2.aar\bd24e331578563d3f0c129d1e55d8935\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.2] C:\Users\madde\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.0.2.aar\bd24e331578563d3f0c129d1e55d8935\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] C:\Users\madde\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.0.2.aar\d67025dd3ea9c3c7e729e862bf7dcf58\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] C:\Users\madde\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.0.2.aar\d67025dd3ea9c3c7e729e862bf7dcf58\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.0.2] C:\Users\madde\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.0.2.aar\08253132bceeb6e1c3028aa228208599\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.0.2] C:\Users\madde\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.0.2.aar\08253132bceeb6e1c3028aa228208599\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.2] C:\Users\madde\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.0.2.aar\8d840bf4ff180dab2f5e25e3da5c42c0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.2] C:\Users\madde\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.0.2.aar\8d840bf4ff180dab2f5e25e3da5c42c0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.2] C:\Users\madde\.gradle\caches\transforms-1\files-1.1\support-compat-27.0.2.aar\4687182b00d95fa4b8e2c86ecdad1b6d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.2] C:\Users\madde\.gradle\caches\transforms-1\files-1.1\support-compat-27.0.2.aar\4687182b00d95fa4b8e2c86ecdad1b6d\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.0.3] C:\Users\madde\.gradle\caches\transforms-1\files-1.1\runtime-1.0.3.aar\e02f72869044278da2b1418028a164b5\AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.3] C:\Users\madde\.gradle\caches\transforms-1\files-1.1\runtime-1.0.3.aar\e02f72869044278da2b1418028a164b5\AndroidManifest.xml:20:5-22:41
 INJECTED from C:\Users\madde\Documents\GitHub\kotlinApp\Application\src\main\AndroidManifest.xml
 INJECTED from C:\Users\madde\Documents\GitHub\kotlinApp\Application\src\main\AndroidManifest.xml
 	android:targetSdkVersion

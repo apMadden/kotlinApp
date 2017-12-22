@@ -24,6 +24,10 @@
         <item name="colorAccent">@color/colorAccent</item>
         <item name="android:windowBackground">@color/windowBackground</item>
     </style>
+
+    <style name="AppThemeFullScreen" parent="AppTheme">
+        <item name="android:windowFullscreen">true</item>
+    </style>
     <style name="MyBlur" parent="Theme.AppCompat.Light.NoActionBar">
         <item name="android:windowFullscreen">true</item>
         <item name="android:background">@color/black_overlay</item>

@@ -34,6 +34,7 @@
     <color name="colorPrimaryLight">#BBDEFB</color>
     <color name="colorPrimaryText">#212121</color>
     <color name="colorSecondaryText">#757575</color>
+    <color name="control_background">#cc4285f4</color>
     <color name="dim_foreground_disabled_material_dark">#80bebebe</color>
     <color name="dim_foreground_disabled_material_light">#80323232</color>
     <color name="dim_foreground_material_dark">#ffbebebe</color>
@@ -353,6 +354,7 @@
     <dimen name="compat_control_corner_material">2dp</dimen>
     <item format="float" name="disabled_alpha_material_dark" type="dimen">0.30</item>
     <item format="float" name="disabled_alpha_material_light" type="dimen">0.26</item>
+    <dimen name="frame_height">112dp</dimen>
     <item format="float" name="highlight_alpha_material_colored" type="dimen">0.26</item>
     <item format="float" name="highlight_alpha_material_dark" type="dimen">0.20</item>
     <item format="float" name="highlight_alpha_material_light" type="dimen">0.12</item>
@@ -361,6 +363,7 @@
     <item format="float" name="hint_pressed_alpha_material_dark" type="dimen">0.70</item>
     <item format="float" name="hint_pressed_alpha_material_light" type="dimen">0.54</item>
     <dimen name="horizontal_page_margin">@dimen/margin_medium</dimen>
+    <dimen name="image_button_padding">20dp</dimen>
     <dimen name="margin_huge">64dp</dimen>
     <dimen name="margin_large">32dp</dimen>
     <dimen name="margin_medium">16dp</dimen>
@@ -452,12 +455,12 @@
     <string name="flip_key_over">Now Flip Over Your Key\nTake a photo of the other side of the key</string>
     <string name="intro_message">
         <![CDATA[
-        
-            
+
+
             This sample demonstrates the basic use of Camera2 API. Check the source code to see how
             you can display camera preview and take pictures.
-            
-        
+
+
         ]]>
     </string>
     <string name="picture">Picture</string>
@@ -475,6 +478,9 @@
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
         <item name="android:windowBackground">@color/windowBackground</item>
+    </style>
+    <style name="AppThemeFullScreen" parent="AppTheme">
+        <item name="android:windowFullscreen">true</item>
     </style>
     <style name="Base.AlertDialog.AppCompat" parent="android:Widget">
         <item name="android:layout">@layout/abc_alert_dialog_material</item>

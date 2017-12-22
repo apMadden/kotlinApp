@@ -21,6 +21,7 @@ import android.app.AlertDialog
 import android.content.Context
 import android.content.pm.PackageManager
 import android.content.res.Configuration
+import android.databinding.DataBindingUtil
 import android.graphics.ImageFormat
 import android.graphics.Matrix
 import android.graphics.Point
@@ -58,8 +59,8 @@ import java.util.concurrent.TimeUnit
 import kotlin.collections.ArrayList
 
 class Camera2BasicFragment : Fragment(), View.OnClickListener,
-        ActivityCompat.OnRequestPermissionsResultCallback {
-
+        ActivityCompat.OnRequestPermissionsResultCallback, ActivityCallback {
+    var viewModel: CameraFragmentViewModel? = null
     /**
      * [TextureView.SurfaceTextureListener] handles several lifecycle events on a
      * [TextureView].
@@ -189,6 +190,11 @@ class Camera2BasicFragment : Fragment(), View.OnClickListener,
      */
     private var sensorOrientation = 0
 
+    override fun buttonClicked(v: View) {
+        activity.setTheme(R.style.AppTheme)
+        //Blurry.delete((ViewGroup) overlay);
+        viewModel.isHidden.set(true)
+    }
     /**
      * A [CameraCaptureSession.CaptureCallback] that handles events related to JPEG capture.
      */
