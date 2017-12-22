@@ -1,0 +1,21 @@
+.gradle
+/local.properties
+.DS_Store
+build
+
+
+*.apk
+
+*.dex
+
+*~
+bin/
+gen/
+Thumbs.db
+
+.classpath
+.project
+*.iml
+
+# Intellij IDEA (see https://intellij-support.jetbrains.com/entries/23393067)
+.idea
