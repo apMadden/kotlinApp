@@ -19,8 +19,9 @@
     <string name="request_permission">This sample needs camera permission.</string>
     <string name="camera_error">This device doesn\'t support Camera2 API.</string>
 
-    <string name="app_name">conversationalPrototype</string>
-    <string name="choice_activity">choice_activity</string>
+    <string name="app_launcher_name">User Flow Tests</string>
+    <string name="activity_main">Main Activity</string>
+    <string name="activity_camera">Main Activity</string>
     <string name="intro_message">
         <![CDATA[
 

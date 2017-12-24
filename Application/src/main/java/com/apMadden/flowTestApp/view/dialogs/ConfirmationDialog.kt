@@ -14,13 +14,15 @@
  * limitations under the License.
  */
 
-package com.example.android.camera2basic
+package com.apMadden.flowTestApp.view.dialogs
 
 import android.Manifest
 import android.app.AlertDialog
 import android.app.Dialog
 import android.os.Bundle
 import android.support.v4.app.DialogFragment
+import com.apMadden.flowTestApp.R
+import com.apMadden.flowTestApp.utils.REQUEST_CAMERA_PERMISSION
 
 /**
  * Shows OK/Cancel confirmation dialog about camera permission.

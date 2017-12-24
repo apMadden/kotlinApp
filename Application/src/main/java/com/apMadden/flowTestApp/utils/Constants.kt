@@ -14,21 +14,19 @@
  * limitations under the License.
  */
 
-package com.example.android.camera2basic
+@file:JvmName("Constants")
 
-import android.support.v4.app.FragmentActivity
-import android.support.v4.content.ContextCompat
-import android.widget.Toast
+package com.apMadden.flowTestApp.utils
+import java.text.DateFormat
+import java.util.*
+import java.text.SimpleDateFormat
 
-/**
- * This file illustrates Kotlin's Extension Functions by extending FragmentActivity.
- */
-
-/**
- * Shows a [Toast] on the UI thread.
- *
- * @param text The message to show
- */
-fun FragmentActivity.showToast(text: String) {
-    runOnUiThread { Toast.makeText(this, text, Toast.LENGTH_SHORT).show() }
-}
+var df: DateFormat = SimpleDateFormat("MM/dd/yyyy_HH:mm:ss")
+// Get the date today using Calendar object.
+var today = Calendar.getInstance().time
+// this should be in another class
+// https://stackoverflow.com/a/12995255/1435712
+var reportDate = df.format(today)
+@JvmField val REQUEST_CAMERA_PERMISSION = 1
+@JvmField val timeStamp = DateFormat.getTimeInstance(DateFormat.LONG, Locale.US).format(Date())
+@JvmField val PIC_FILE_NAME ="Pic: " + reportDate + "_.jpg"

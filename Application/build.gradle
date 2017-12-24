@@ -1,19 +1,20 @@
 apply plugin: 'com.android.application'
-
 apply plugin: 'kotlin-android'
-
 apply plugin: 'kotlin-android-extensions'
-
+apply plugin: 'kotlin-kapt'
 android {
-    compileSdkVersion 27
-    buildToolsVersion '27.0.2'
+    compileSdkVersion build_versions.target_sdk
+    buildToolsVersion build_versions.build_tools
     dataBinding.enabled = true
     defaultConfig {
-        applicationId "com.example.android.camera2basic"
-        minSdkVersion 21
-        targetSdkVersion 27
+        applicationId "com.apMadden.flowTestApp"
+        minSdkVersion build_versions.min_sdk
+        targetSdkVersion build_versions.target_sdk
         versionCode 1
         versionName "1.0"
+    }
+    androidExtensions {
+        experimental = true
     }
     buildTypes {
         release {
@@ -24,6 +25,15 @@ android {
 }
 
 dependencies {
-    implementation "com.android.support:appcompat-v7:27.0.2"
-    implementation "org.jetbrains.kotlin:kotlin-stdlib-jre7:$kotlin_version"
+    implementation deps.kotlin.stdlib
+    kapt deps.data_binding_compiler
+    implementation deps.support.app_compat
+    implementation deps.support.support_v4
+    implementation deps.support.design
+    implementation deps.support.cardview
+    implementation deps.support.recycler_view
+    implementation deps.constraint_layout
+    implementation deps.lifecycle.java8
+    implementation deps.lifecycle.extensions
+    implementation deps.kotlin.stdlib
 }

@@ -1,14 +1,18 @@
-package com.example.android.camera2basic
+package com.apMadden.flowTestApp.viewmodels
 
+import android.arch.lifecycle.ViewModel
 import android.databinding.ObservableBoolean
 import android.util.Log
 import android.view.View
+import com.apMadden.flowTestApp.utils.ActivityCallback
+import com.apMadden.flowTestApp.utils.ButtonClickCallback
+import com.apMadden.flowTestApp.view.BaseViewModel
 
 /**
- * Created by madde on 11/7/2017.
+ * Created by madde on 12/23/2017.
  */
 
-class CameraFragmentViewModel(val activityCallback: ActivityCallback) : ButtonClickCallback {
+class UserFlowCardViewModel(val activityCallback: ActivityCallback) : ButtonClickCallback, BaseViewModel() {
 
     var isHidden = ObservableBoolean(true)
 

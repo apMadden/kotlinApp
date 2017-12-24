@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.example.android.camera2basic
+package com.apMadden.flowTestApp.view.camera
 
 import android.Manifest
 import android.app.AlertDialog
@@ -51,6 +51,12 @@ import android.view.Surface
 import android.view.TextureView
 import android.view.View
 import android.view.ViewGroup
+import com.apMadden.flowTestApp.R
+import com.apMadden.flowTestApp.databinding.FragmentCamera2BasicBinding
+import com.apMadden.flowTestApp.utils.*
+import com.apMadden.flowTestApp.view.dialogs.ConfirmationDialog
+import com.apMadden.flowTestApp.view.dialogs.ErrorDialog
+import com.apMadden.flowTestApp.viewmodels.CameraFragmentViewModel
 import java.io.File
 import java.util.Arrays
 import java.util.Collections
@@ -58,7 +64,7 @@ import java.util.concurrent.Semaphore
 import java.util.concurrent.TimeUnit
 import kotlin.collections.ArrayList
 
-class Camera2BasicFragment : Fragment(), View.OnClickListener,
+class CameraFragment : Fragment(), View.OnClickListener,
         ActivityCompat.OnRequestPermissionsResultCallback, ActivityCallback {
     var viewModel: CameraFragmentViewModel? = null
     /**
@@ -113,19 +119,19 @@ class Camera2BasicFragment : Fragment(), View.OnClickListener,
 
         override fun onOpened(cameraDevice: CameraDevice) {
             cameraOpenCloseLock.release()
-            this@Camera2BasicFragment.cameraDevice = cameraDevice
+            this@CameraFragment.cameraDevice = cameraDevice
             createCameraPreviewSession()
         }
 
         override fun onDisconnected(cameraDevice: CameraDevice) {
             cameraOpenCloseLock.release()
             cameraDevice.close()
-            this@Camera2BasicFragment.cameraDevice = null
+            this@CameraFragment.cameraDevice = null
         }
 
         override fun onError(cameraDevice: CameraDevice, error: Int) {
             onDisconnected(cameraDevice)
-            this@Camera2BasicFragment.activity?.finish()
+            this@CameraFragment.activity?.finish()
         }
 
     }
@@ -191,9 +197,9 @@ class Camera2BasicFragment : Fragment(), View.OnClickListener,
     private var sensorOrientation = 0
 
     override fun buttonClicked(v: View) {
-        activity.setTheme(R.style.AppTheme)
+        activity!!.setTheme(R.style.AppTheme)
         //Blurry.delete((ViewGroup) overlay);
-        viewModel.isHidden.set(true)
+        viewModel!!.isHidden.set(true)
     }
     /**
      * A [CameraCaptureSession.CaptureCallback] that handles events related to JPEG capture.
@@ -259,7 +265,7 @@ class Camera2BasicFragment : Fragment(), View.OnClickListener,
             container: ViewGroup?,
             savedInstanceState: Bundle?
     ): View? {
-        val binding = DataBindingUtil.inflate(inflater, R.layout.fragment_camera2_basic, container, false)
+        val binding: FragmentCamera2BasicBinding = DataBindingUtil.inflate(inflater, R.layout.fragment_camera2_basic, container, false)
         viewModel = CameraFragmentViewModel(this)
         binding.setData(viewModel)
         return binding.getRoot()
@@ -274,6 +280,7 @@ class Camera2BasicFragment : Fragment(), View.OnClickListener,
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
         file = File(activity!!.getExternalFilesDir(null), PIC_FILE_NAME)
+        Log.d("Camera", PIC_FILE_NAME);
     }
 
     override fun onResume() {
@@ -430,7 +437,7 @@ class Camera2BasicFragment : Fragment(), View.OnClickListener,
     }
 
     /**
-     * Opens the camera specified by [Camera2BasicFragment.cameraId].
+     * Opens the camera specified by [CameraFragment.cameraId].
      */
     private fun openCamera(width: Int, height: Int) {
         val permission = ContextCompat.checkSelfPermission(activity!!, Manifest.permission.CAMERA)
@@ -732,7 +739,7 @@ class Camera2BasicFragment : Fragment(), View.OnClickListener,
         /**
          * Tag for the [Log].
          */
-        private val TAG = "Camera2BasicFragment"
+        private val TAG = "CameraFragment"
 
         /**
          * Camera state: Showing camera preview.
@@ -823,6 +830,6 @@ class Camera2BasicFragment : Fragment(), View.OnClickListener,
             }
         }
 
-        @JvmStatic fun newInstance(): Camera2BasicFragment = Camera2BasicFragment()
+        @JvmStatic fun newInstance(): CameraFragment = CameraFragment()
     }
 }
