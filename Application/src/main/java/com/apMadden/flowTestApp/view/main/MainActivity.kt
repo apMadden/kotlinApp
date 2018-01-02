@@ -15,15 +15,9 @@ import com.apMadden.flowTestApp.view.camera.CameraFragment
 class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
-        /*super.onCreate(savedInstanceState)
+        super.onCreate(savedInstanceState)
         val binding: ActivityMainBinding = DataBindingUtil.setContentView(this, R.layout.activity_main)
         val viewModel = ViewModelProviders.of(this).get(MainActivityViewModel::class.java)
-        binding.data = viewModel*/
-        super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_camera)
-        savedInstanceState ?: supportFragmentManager.beginTransaction()
-                .replace(R.id.container, CameraFragment.newInstance())
-                .commit()
+        binding.data = viewModel
     }
-
 }

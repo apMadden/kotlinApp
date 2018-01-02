@@ -16,9 +16,9 @@
 -->
 <resources>
     <color name="control_background">#cc4285f4</color>
-    <color name="colorPrimary">#2196F3</color>
-    <color name="colorPrimaryDark">#1976D2</color>
-    <color name="colorPrimaryLight">#BBDEFB</color>
+    <color name="primary">#2196F3</color>
+    <color name="primary_dark">#1976D2</color>
+    <color name="primary_light">#bbdefb</color>
     <color name="windowBackground">#BBDEFB</color>
     <color name="colorAccent">#FF5722</color>
     <color name="colorPrimaryText">#212121</color>

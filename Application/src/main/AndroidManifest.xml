@@ -30,7 +30,7 @@
         android:label="@string/app_launcher_name"
         android:icon="@mipmap/ic_launcher"
         android:roundIcon="@mipmap/ic_launcher_round"
-        android:theme="@style/MaterialTheme">
+        android:theme="@style/AppTheme">
 
         <activity android:name="com.apMadden.flowTestApp.view.main.MainActivity"
             android:label="@string/app_launcher_name">
