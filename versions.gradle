@@ -6,16 +6,16 @@
  **/
 ext.deps = [:]
 def versions = [:]
-versions.android_gradle_plugin = "3.0.1"
-versions.arch = "1.0.0"
-versions.constraint_layout = "1.0.2"
+versions.android_gradle_plugin = "3.1.2"
+versions.arch = "1.1.1"
+versions.constraint_layout = "1.1.0"
 versions.gson = "2.8.0"
 versions.junit = "4.12"
-versions.kotlin = "1.2.10"
+versions.kotlin = "1.2.41"
 versions.okhttp = "3.9.0"
 versions.okio = "1.13.0"
 versions.retrofit = "2.3.0"
-versions.support = "27.0.2"
+versions.support = "27.1.1"
 versions.data_binding_compiler="3.0.0"
 
 def deps = [:]
@@ -27,6 +27,7 @@ support.support_v4 = "com.android.support:support-v4:$versions.support"
 support.design = "com.android.support:design:$versions.support"
 support.cardview = "com.android.support:cardview-v7:$versions.support"
 support.recycler_view = "com.android.support:recyclerview-v7:$versions.support"
+support.support_compat = "com.android.support:support-compat:$versions.support"
 deps.support = support
 
 def room = [:]
@@ -40,11 +41,10 @@ lifecycle.extensions = "android.arch.lifecycle:extensions:$versions.arch"
 deps.lifecycle = lifecycle
 
 def kotlin = [:]
-kotlin.stdlib = "org.jetbrains.kotlin:kotlin-stdlib-jre7:$versions.kotlin"
+kotlin.stdlib = "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$versions.kotlin"
 kotlin.plugin = "org.jetbrains.kotlin:kotlin-gradle-plugin:$versions.kotlin"
 deps.kotlin = kotlin
 
-deps.data_binding_compiler="com.android.databinding:compiler:$versions.data_binding_compiler"
 deps.constraint_layout = "com.android.support.constraint:constraint-layout:$versions.constraint_layout"
 deps.android_gradle_plugin = "com.android.tools.build:gradle:$versions.android_gradle_plugin"
 ext.deps = deps

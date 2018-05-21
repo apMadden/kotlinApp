@@ -2,7 +2,7 @@ apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
 apply plugin: 'kotlin-kapt'
-apply plugin: 'com.google.gms.google-services'
+
 android {
     compileSdkVersion build_versions.target_sdk
     buildToolsVersion build_versions.build_tools
@@ -23,18 +23,22 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
 }
 
 dependencies {
     implementation deps.kotlin.stdlib
-    kapt deps.data_binding_compiler
+    //kapt deps.data_binding_compiler
     implementation deps.support.app_compat
     implementation deps.support.support_v4
     implementation deps.support.design
     implementation deps.support.cardview
     implementation deps.support.recycler_view
+    implementation deps.support.annotations
     implementation deps.constraint_layout
     implementation deps.lifecycle.java8
     implementation deps.lifecycle.extensions
-    implementation deps.kotlin.stdlib
 }

@@ -15,7 +15,7 @@ open class BaseRecyclerAdapter(private val list: List<Any>,
     private var inflater: LayoutInflater? = null
 
     override fun onCreateViewHolder(view: ViewGroup, viewType: Int): BaseViewHolder {
-        val binding = DataBindingUtil.inflate<ViewDataBinding>(inflater, viewType, view, false)
+        val binding = DataBindingUtil.inflate<ViewDataBinding>(inflater!!, viewType, view, false)
         return BaseViewHolder(binding)
     }
 
